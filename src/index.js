@@ -1,1 +1,4 @@
-console.log('hello console')
+import { createHeader } from "./modules/header";
+import './css/main.css'
+
+createHeader()
