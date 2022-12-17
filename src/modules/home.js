@@ -6,6 +6,8 @@ const mainContent = document.createElement('main')
 const textContent = document.createElement('div')
 textContent.className='textContent'
 const imageSect = document.createElement('div')
+imageSect.className='imageSect'
+
 
 const socialMedia = document.createElement('div')
 socialMedia.className='socialSect'

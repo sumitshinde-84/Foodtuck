@@ -5,6 +5,7 @@ main{
 
   grid-column: 2/13;
   grid-row: 3/8;
+  display: flex;
   
 }
 
@@ -12,7 +13,7 @@ main .textContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 48%;
     height: 100%;
     border: none;
     outline: none;
@@ -75,5 +76,14 @@ font-family:'Inter', sans-serif;
     color: var(--primary-clr);
     font-family: 'Great Vibes', cursive;
     margin: 10px 35px;
+    
+}
+
+
+.imageSect{
+    width: 50%;
+    height: 130%;
+    background: url('../images/homeDish.png');
+    background-size: cover;
     
 }
