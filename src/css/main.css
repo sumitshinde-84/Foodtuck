@@ -1,7 +1,7 @@
 @import './varriables.css';
 @import "./header.css";
 @import './home.css';
-
+@import './footer.css';
 
 *{
     margin: 0;
@@ -14,19 +14,23 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
+    background-color: var(--black-bg-clr);
     background-image: url('../images/mainbg.png');
     background-size: cover;
     overflow: auto;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
     
 }
 
 .content{
 width: 100vw;
 background-color:rgba(0, 0, 0, 0.804);
-height: 100vh;
+height: 150%;
 display: grid;
+grid-auto-flow: column;
 grid-template-columns: repeat(12,88px);
-grid-template-rows: repeat(9,1fr);
+grid-template-rows: repeat(20,70px);
 gap:0px 24px;
 
 }

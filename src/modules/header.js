@@ -1,5 +1,6 @@
 import {headerImg}  from "./images";
 import { content } from "../index";
+import { createHome } from "./home";
 
 
 export function createHeader(){
@@ -38,7 +39,7 @@ export function createHeader(){
 
    const list1 = document.createElement('li')
    list1.textContent='Home'
-
+   list1.addEventListener('click',createHome)
 
    const list2 = document.createElement('li')
    list2.textContent='Menu'

@@ -1,0 +1,105 @@
+footer{
+  grid-column: 1/14;
+  grid-row: 15/21;
+  border: 1px var(--white-clr) solid;
+  position: relative;
+  
+  
+}
+
+.grassCorner {
+    height: 200px;
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   opacity: .5;
+   
+}
+
+.footerBelt{
+    height: 70px;
+    width: 100vw;
+    background-color: var(--primary-clr);
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.socialMedSec{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 110px;
+}
+
+.socialMedSec div:nth-child(1){
+background: url('../images/fb-f.png');
+width: 27px;
+height: 27px;
+background-color:var(--white-clr);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 30%;
+margin: 0px 6px;
+
+
+}
+
+.socialMedSec div:nth-child(2){
+  background: url('../images/twitter-f.png');
+  width: 27px;
+  height: 27px;
+  background-color:var(--white-clr);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45%;
+  margin: 0px 6px;
+  
+  }
+
+  .socialMedSec div:nth-child(3){
+    background: url('../images/insta-f.png');
+    width: 27px;
+    height: 27px;
+    background-color:var(--white-clr);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    margin: 0px 6px;
+    
+    }
+    .socialMedSec div:nth-child(4){
+      background: url('../images/yt-f.png');
+      width: 27px;
+      height: 27px;
+      background-color:var(--white-clr);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 45%;
+      margin: 0px 6px;
+      
+      }
+      .socialMedSec div:nth-child(5){
+        background: url('../images/pin-f.png');
+        width: 27px;
+        height: 27px;
+        background-color:var(--white-clr);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 45%;
+        margin: 0px 6px;
+        
+        }
+
+        .footerBelt p{
+          color: var(--white-clr);
+          font-size:17px;
+          font-weight: 800;
+          margin-left: 120px;
+          font-family: 'Inter', sans-serif;;;
+
+          
+        }
+            
