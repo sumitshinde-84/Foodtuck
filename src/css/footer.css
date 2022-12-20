@@ -4,7 +4,9 @@ footer{
   /* border: 1px var(--white-clr) solid; */
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   
   
 }
@@ -33,7 +35,7 @@ footer{
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-right: 110px;
+  margin-right: 140px;
 }
 
 .socialMedSec div:nth-child(1){
@@ -99,7 +101,7 @@ margin: 0px 6px;
           color: var(--white-clr);
           font-size:17px;
           font-weight: 800;
-          margin-left: 120px;
+          margin-left: 140px;
           font-family: 'Inter', sans-serif; 
         }
 
@@ -110,6 +112,7 @@ height: 100%;
 /* border: 1px var(--white-clr) solid; */
 display: flex;
 align-items: center;
+margin-top: -20px;
 
 }
 
@@ -117,7 +120,8 @@ align-items: center;
    width: 100%;
    height: 50%;
    /* border: 1px var(--primary-clr) solid; */
-   display: flex
+   display: flex;
+   gap: 40px
    ;
 }
 
@@ -265,6 +269,104 @@ margin-top: 8px;
   grid-column: 2/3;
   grid-row: 1/4;
 }
+
+.supportSect{
+  width: 68%;
+  height: 60px;
+  border: 1px var(--white-clr) solid;
+  margin-bottom:-40px;
+  color: aliceblue;
+  border: none;
+  border-bottom: 1px var(--primary-clr) solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 300px;
+  height: 100px;
+}
+
+.supportSect span{
+color: var(--primary-clr);
+font-size: 20px;
+}
+
+.supportSect p:first-child{
+  color: var(--white-clr);
+  font-size: 20px;
+  font-family:  Helvetica, sans-serif;
+  font-weight: 900;
+  }
+
+  .supportSect p:nth-child(2){
+    color: var(--white-clr);
+    font-size: 11px;
+    font-family:  Helvetica, sans-serif;
+    
+    }
+
+    .supportSect div{
+    grid-column: 2/3;
+    grid-row: 1 / 3;
+    width: 300px;
+    height: 40px;
+    background-color: var(--primary-clr);
+    border-radius: 10px;
+    display: flex;
+      }
+
+      .supportSect input{
+        width: 200px;
+        background-color: var(--primary-clr);
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+
+          }
+
+          .supportSect input:focus{
+            width: 200px;
+            background-color: var(--primary-clr);
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            border: none;
+            outline: none;
+    
+              }
+
+          .supportSect input::placeholder{
+            font-family: 'Inter', sans-serif;
+            color: var(--white-clr);
+           
+            
+              }
+
+      .supportSect button{
+       width: 100px;
+        background-color: var(--white-clr);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: var(--primary-clr);
+        font-size: 13px;
+        ;
+          }
+
+          .supportSect button:hover{
+            width: 100px;
+             background-color: var(--white-clr);
+             border: none;
+             outline: none;
+             border-radius: 5px;
+             color: var(--primary-clr);
+             font-size: 13px;
+             background-color: rgb(235, 233, 233)
+             ;
+               }
+
+    
+
+
 
 
 

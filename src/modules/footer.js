@@ -110,6 +110,25 @@ export function createFooter(){
 
     const aboutUsSect = document.createElement('div')
     aboutUsSect.className='aboutUsSect'
+
+    const supportSect = document.createElement('div')
+    supportSect.className='supportSect'
+    const inputSect = document.createElement('div')
+    const supportP1 = document.createElement('p')
+    supportP1.innerHTML='<span>S</span>till You Need Our Support ?'
+    const supportP2 = document.createElement('p')
+    supportP2.textContent='Don’t wait make a smart & logical quote here. Its pretty easy.'
+    const supportIpt = document.createElement('input')
+    supportIpt.placeholder='Enter Your Email'
+    const supportBtn = document.createElement('button')
+    supportBtn.textContent='Subcribe Now'
+
+    supportSect.appendChild(supportP1)
+    supportSect.appendChild(supportP2)
+    supportSect.appendChild(inputSect)
+    inputSect.appendChild(supportIpt)
+    inputSect.appendChild(supportBtn)
+
     const openHrSectMain = document.createElement('div');
     openHrSectMain.className='openHrSectMain';
     const openHrSect = document.createElement('div');
@@ -192,11 +211,13 @@ export function createFooter(){
    footerTxtContent.appendChild(useFullSect)
    footerTxtContent.appendChild(helpSect)
    footerTxtContent.appendChild(recentPost)
-    
+    footer.appendChild(supportSect)
     footerContent.appendChild(footerTxtContent)
     footer.appendChild(footerContent)
     footer.appendChild(footerBelt)
     footer.appendChild(grassCorner)
     content.appendChild(footer)
+
+
 
 }
