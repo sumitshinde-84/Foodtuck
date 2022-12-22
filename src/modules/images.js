@@ -15,6 +15,7 @@ import Category1 from '../images/category1.png'
 import Category2 from '../images/category2.png'
 import Category3 from '../images/category3.png'
 import Category4 from '../images/category4.png'
+import sideGrassImg from '../images/sideGrass.png'
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
 
@@ -24,4 +25,4 @@ export const footerImg = [grassCorner,firstPost,secondPost,thirdPost]
 
 export const aboutImg = [about1,about2,about3]
 
-export const CategoryImg = [Category1,Category2,Category3,Category4]
+export const CategoryImg = [Category1,Category2,Category3,Category4,sideGrassImg]
