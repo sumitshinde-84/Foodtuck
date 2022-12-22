@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr 1fr;
-    gap: 20px;  
+    gap: 8px;  
     align-content: center;
     justify-content: center;
 }
@@ -45,14 +45,14 @@
     grid-column: 1 /2;
     grid-row: 2/3 ;
    
-    width: 90%;
+    width: 100%;
 }
 
 .aboutUsSectMain div:nth-child(2) img:nth-child(3){
     grid-column: 2 /3;
     grid-row: 2/3 ;
    
-    width: 90%;
+    width: 100%;
 }
 
 .aboutUsSectMain  ul{
