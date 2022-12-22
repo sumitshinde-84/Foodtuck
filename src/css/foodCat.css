@@ -29,7 +29,7 @@
    height: 35px;
    position:absolute;
    top: 200px;
-   left: 140px;
+   left: 90px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -44,7 +44,7 @@
     font-weight: 600;
     position:absolute;
     top: 245px;
-    left: 80px;
+    left: 30px;
     height: 35px;
     width: 170px;
     border-radius: 5px;
