@@ -1,5 +1,5 @@
 .FoodCatSect {
-    grid-column: 2/12;
+    grid-column: 2/11;
     grid-row: 20/25;
 
     display: flex;
@@ -54,7 +54,7 @@
     color: var(--white-clr);
 }
 .FoodCatSect > div img{
-   width: 250px;
+   width: 220px;
    margin: 0px 10px;
    
 }
