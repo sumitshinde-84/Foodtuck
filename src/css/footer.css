@@ -1,7 +1,7 @@
 footer{
   grid-column: 1/13;
   grid-row: 50/56;
-  /* border: 1px var(--white-clr) solid; */
+  border: 1px var(--white-clr) solid;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@ margin: 0px 6px;
 
 width: 85%;
 height: 100%;
-/* border: 1px var(--white-clr) solid; */
+border: 1px var(--white-clr) solid;
 display: flex;
 align-items: center;
 margin-top: -20px;
@@ -117,20 +117,20 @@ margin-top: -20px;
 .footerTxtContent{
    width: 100%;
    height: 50%;
-   /* border: 1px var(--primary-clr) solid; */
+   border: 1px var(--primary-clr) solid;
    display: flex;
-   gap: 40px
+   gap: 40px;
+   margin-right: 50px
    ;
 }
 
 .footerTxtContent > div{
   height: 200px;
   width: 200px;
-  /* border: 1px red solid; */
+  border: 1px red solid;
   margin-left: auto;
   display: flex;
   flex-direction: column;
-  
   gap: 10px 0px;
 }
 
