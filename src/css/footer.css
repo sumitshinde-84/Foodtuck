@@ -20,7 +20,7 @@ footer{
 
 .footerBelt{
     height: 60px;
-    width: 100vw;
+    width: 100%;
     background-color: var(--primary-clr);
     position: absolute;
     bottom: 0px;
