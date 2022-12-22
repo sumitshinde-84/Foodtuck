@@ -35,7 +35,7 @@ height: 120%;
 display: grid;
 grid-auto-flow: column;
 grid-template-columns: repeat(12,88px);
-grid-template-rows: repeat(40,70px);
+grid-template-rows: repeat(55,70px);
 
 gap:0px 24px;
 z-index: 1;

@@ -1,6 +1,6 @@
 footer{
   grid-column: 1/14;
-  grid-row: 35/41;
+  grid-row: 50/56;
   /* border: 1px var(--white-clr) solid; */
   position: relative;
   display: flex;
