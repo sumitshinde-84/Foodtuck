@@ -20,11 +20,11 @@ body{
     background-color: var(--black-bg-clr);
     background-image: url('../images/mainbg.png');
     background-size: cover;
-   
+    background-position-x: 100px;
     background-repeat: no-repeat;
     overflow: auto;
    
-overflow-x: hidden;
+   overflow-x: hidden;
     background-position: top;
     
 }

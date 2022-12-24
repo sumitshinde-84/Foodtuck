@@ -5,12 +5,12 @@
 }
 
 .mainSect{
-    grid-column: 2 /12;
+    grid-column: 2 /11;
     grid-row: 26/34;
     display: flex;
-    gap:40px;
+    gap:0px;
     margin: 20px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 
 .mainSect div:nth-child(1){
