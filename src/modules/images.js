@@ -16,6 +16,12 @@ import Category2 from '../images/category2.png'
 import Category3 from '../images/category3.png'
 import Category4 from '../images/category4.png'
 import sideGrassImg from '../images/sideGrass.png'
+import why1 from '../images/why_1.png'
+import why2 from '../images/why_2.png'
+import why3 from '../images/why_3.png'
+import why4 from '../images/why_4.png'
+import why5 from '../images/why_5.png'
+import why6 from '../images/why_6.png'
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
 
@@ -26,3 +32,5 @@ export const footerImg = [grassCorner,firstPost,secondPost,thirdPost]
 export const aboutImg = [about1,about2,about3]
 
 export const CategoryImg = [Category1,Category2,Category3,Category4,sideGrassImg]
+
+export const WhyImg = [why1,why2,why3,why4,why5,why6]

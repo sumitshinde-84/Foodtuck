@@ -4,6 +4,7 @@
 @import './footer.css';
 @import './about.css';
 @import './foodCat.css';
+@import './WhyChoose.css';
 
 *{
     margin: 0;
