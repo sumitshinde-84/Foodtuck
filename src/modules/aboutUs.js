@@ -9,7 +9,7 @@ export function createAboutUs(){
     const textContent = document.createElement('div')
     const Title1 = document.createElement('h2')
     const Title2 = document.createElement('h1')
-    Title1.textContent='About Us'
+    Title1.textContent='About us'
     Title2.innerHTML='<span>We</span> Create The Best foody product'
     const para = document.createElement('p')
     para.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
