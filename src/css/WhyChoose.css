@@ -8,9 +8,9 @@
     grid-column: 2 /12;
     grid-row: 26/34;
     display: flex;
-    gap:50px;
+    gap:40px;
     margin: 20px;
-    margin-left: 110px;
+    margin-left: 90px;
 }
 
 .mainSect div:nth-child(1){
