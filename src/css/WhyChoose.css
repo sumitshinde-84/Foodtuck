@@ -5,10 +5,11 @@
 }
 
 .mainSect{
-    grid-column: 2 /11;
+    grid-column: 2 /12;
     grid-row: 26/34;
     display: flex;
     margin: 20px;
+    margin-left: 110px;
 }
 
 .mainSect div:nth-child(1){
