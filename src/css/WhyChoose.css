@@ -8,7 +8,7 @@
     grid-column: 2 /11;
     grid-row: 26/34;
     display: flex;
-    gap:0px;
+    gap:30px;
     margin: 20px;
     
 }
