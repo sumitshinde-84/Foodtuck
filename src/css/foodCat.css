@@ -30,7 +30,7 @@
    height: 35px;
    position:absolute;
    top: 200px;
-   left: 110px;
+   left: 80px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -45,7 +45,7 @@
     font-weight: 600;
     position:absolute;
     top: 245px;
-    left: 45px;
+    left: 25px;
     height: 35px;
     width: 170px;
     border-radius: 5px;

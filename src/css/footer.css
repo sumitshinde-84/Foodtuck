@@ -1,5 +1,5 @@
 footer{
-  grid-column: 1/13;
+  grid-column: 1/14;
   grid-row: 50/56;
   /* border: 1px var(--white-clr) solid; */
   position: relative;
@@ -98,7 +98,7 @@ margin: 0px 6px;
 .footerBelt p{
           color: var(--white-clr);
           font-size:17px;
-          font-weight: 800;
+          font-weight: 500;
           margin-left: 140px;
           font-family: 'Inter', sans-serif; 
         }
