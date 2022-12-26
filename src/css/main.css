@@ -5,6 +5,7 @@
 @import './about.css';
 @import './foodCat.css';
 @import './WhyChoose.css';
+@import './restrauInfoSect.css';
 
 *{
     margin: 0;

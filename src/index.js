@@ -4,6 +4,8 @@ import { createFooter } from "./modules/footer";
 import { createAboutUs } from "./modules/aboutUs";
 import { createFoodCat } from "./modules/foodCat";
 import { createWhyChoose } from "./modules/whyChoose";
+import { createRestrauInfo } from "./modules/restrauInfoSect";
+
 import './css/main.css'
 export  const content = document.querySelector('#content')
     
@@ -12,5 +14,6 @@ createHome()
 createAboutUs()
 createFoodCat()
 createWhyChoose()
+createRestrauInfo()
 createFooter();
 

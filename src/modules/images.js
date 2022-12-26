@@ -22,6 +22,10 @@ import why3 from '../images/why_3.png'
 import why4 from '../images/why_4.png'
 import why5 from '../images/why_5.png'
 import why6 from '../images/why_6.png'
+import info1 from '../images/chefCap.png'
+import info2 from '../images/foodProduct.png'
+import info3 from '../images/pizza.png'
+import info4 from '../images/spoon.png'
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
 
@@ -34,3 +38,5 @@ export const aboutImg = [about1,about2,about3]
 export const CategoryImg = [Category1,Category2,Category3,Category4,sideGrassImg]
 
 export const WhyImg = [why1,why2,why3,why4,why5,why6]
+
+export const restrauInfoSectImg = [info1,info2,info3,info4]
