@@ -14,6 +14,7 @@
 
 .restrauInfoSectBlackLayer{
     justify-content: space-around;
+    margin-right: 60px;
     align-items: center;
     display: flex;
     width: 100%;
