@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     grid-column: 2/11;
-    grid-row: 42/49;
+    grid-row: 42/45;
    
     position: relative;
 }
@@ -34,6 +34,13 @@
     position: absolute;
     left: 30%;
     top: -80px;
+}
+
+.FromMenuMain span{
+    color: var(--primary-clr);
+    font-family: Helvetica, sans-serif;
+    width: 450px;
+    font-size: 40px;
 }
 
 .nav{

@@ -8,6 +8,7 @@ import { createRestrauInfo } from "./modules/restrauInfoSect";
 import {createFromMenu } from './modules/fromMenu'
 
 import './css/main.css'
+import { createOurChef } from "./modules/ourChef";
 export  const content = document.querySelector('#content')
     
 createHeader();
@@ -17,6 +18,7 @@ createFoodCat()
 createWhyChoose()
 createRestrauInfo()
 createFromMenu()
+createOurChef()
 createFooter();
 
 

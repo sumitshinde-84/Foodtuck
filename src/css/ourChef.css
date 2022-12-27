@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.ourChefSect{
+    grid-column: 2/11;
+    grid-row: 47/52;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ourChefSect h2{
+    font-weight: 300;
+    color: var(--primary-clr);
+    font-family: 'Great Vibes', cursive;
+    margin: 10px 35px;;
+    position: absolute;
+    
+}
+
+.ourChefSect h1{
+    color: var(--white-clr);
+    font-family: Helvetica, sans-serif;
+    width: 450px;
+    font-size: 40px;
+    margin: 10px 35px;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+
+.ourChefSect span{
+    color: var(--primary-clr);
+    font-family: Helvetica, sans-serif;
+    width: 450px;
+    font-size: 40px;
+}
+
+.chefList{
+    width: 100%;
+    height: 250px;
+  
+    margin-top: auto;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+   position: relative;
+   top: 20px;
+    
+}
+
+.chefList .chefSect{
+    overflow: hidden;
+    width: 170px;
+    height: 230px;
+}
+
+.chefList img{
+    width: 170px;
+    height: 230px;
+    scale: 1;
+    
+    transition: .5s;
+}
+
+.chefList img:hover{
+    width: 170px;
+    height: 230px;
+    scale: 1.2;
+}
+
+.chefList .info{
+
+    width: 0px;
+    height: 50px;
+    background-color: var(--white-clr);
+    color: var(--black-clr);
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.chefList .info p:first-child{
+    font-family:'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    display: none;
+    
+
+}
+
+.chefList .info p:nth-child(2){
+    font-family:'Inter', sans-serif;
+    font-size:10px;
+    display: none;
+    
+}

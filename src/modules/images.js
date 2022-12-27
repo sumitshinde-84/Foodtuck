@@ -56,6 +56,10 @@ import snack2 from '../images/snack2.jpeg'
 import soup1 from '../images/soup1.jpeg'
 import soup2 from '../images/soup2.jpeg'
 import soup3 from '../images/soup3.jpeg'
+import chef1 from '../images/chef1.png'
+import chef2 from '../images/chef2.png'
+import chef3 from '../images/chef3.png'
+import chef4 from '../images/chef4.png'
 
 
 
@@ -86,3 +90,5 @@ export const menuDrinkImg = [drink1,drink2,drink3]
 export const menuSnackImg = [snack1,snack2]
 
 export const menuSoupImg = [soup1,soup2,soup3]
+
+export const chefImg = [chef1,chef2,chef3,chef4]

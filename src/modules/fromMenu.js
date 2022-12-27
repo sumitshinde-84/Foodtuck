@@ -69,7 +69,7 @@ export function createFromMenu(){
     const Title1 = document.createElement('h2')
     Title1.textContent='Choose & pick'
     const Title2 = document.createElement('h1')
-    Title2.textContent='From Our Menu'
+    Title2.innerHTML='<span>Fr</span>om Our Menu'
 
     
     FromMenuMain.appendChild(Title1)
@@ -90,10 +90,6 @@ export function createFromMenu(){
     foodItem(menuItemImg[6],'Sllice Beef','Lacus nisi, et ac dapibus velit in consequat.','14$')
     foodItem(menuItemImg[7],'Mushaom Pizza','Lacus nisi, et ac dapibus velit in consequat.','11.5$')
     }
-
-
-
-
 
     function lunch(){
 
