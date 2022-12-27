@@ -5,6 +5,7 @@ import { createAboutUs } from "./modules/aboutUs";
 import { createFoodCat } from "./modules/foodCat";
 import { createWhyChoose } from "./modules/whyChoose";
 import { createRestrauInfo } from "./modules/restrauInfoSect";
+import {createFromMenu } from './modules/fromMenu'
 
 import './css/main.css'
 export  const content = document.querySelector('#content')
@@ -15,5 +16,7 @@ createAboutUs()
 createFoodCat()
 createWhyChoose()
 createRestrauInfo()
+createFromMenu()
 createFooter();
+
 

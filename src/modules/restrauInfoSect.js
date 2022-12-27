@@ -1,5 +1,5 @@
 import { content } from "../index";
-import { restrauInfoSect, restrauInfoSectImg } from "./images";
+import {  restrauInfoSectImg } from "./images";
 
 export function createRestrauInfo(){
 
