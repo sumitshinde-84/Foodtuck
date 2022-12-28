@@ -2,7 +2,6 @@ import { content } from "../index";
 import { profileImg } from "./images";
 
 
-
 export function createTestimonial(){
 const testimonialSect = document.createElement('div')
 testimonialSect.className='Testimonial'
@@ -17,6 +16,10 @@ testimonialCards.className='testimonialCards'
 const profile = document.createElement('img')
 profile.className='profile'
 profile.src = profileImg[0]
+
+const grassCorner = document.createElement('img')
+grassCorner.className='grassCornerImg'
+grassCorner.src = profileImg[7]
 
 const reviwePara = document.createElement('p')
 reviwePara.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
@@ -76,8 +79,10 @@ testimonialCards.appendChild(starSect)
 testimonialCards.appendChild(name)
 testimonialCards.appendChild(designation)
 testimonialCardSect.appendChild(testimonialGreen)
+testimonialSect.appendChild(grassCorner)
 testimonialSect.appendChild(testimonialCardSect)
 content.appendChild(testimonialSect)
+
 setTimeout(animation,3000)
 function animation(){
     profile.src=profileImg[0]
