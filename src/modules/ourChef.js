@@ -6,6 +6,8 @@ export function createOurChef(){
 
 const ourChefSect = document.createElement('div')
 ourChefSect.className='ourChefSect'
+const button = document.createElement('button')
+    button.textContent='See More'
 const Title1 = document.createElement('h2')
 Title1.textContent='Chefs'
 const Title2 = document.createElement('h1')
@@ -30,7 +32,6 @@ function makeChefSect(img,Name,designation){
     info.className='info'
     chefSect.addEventListener('mouseover',infoAnimation)
     chefSect.addEventListener('mouseout',infoAnimationLeave)
-
     function infoAnimation(){
         info.style.width='100px'
         infoName.style.display='block'
@@ -54,9 +55,11 @@ function makeChefSect(img,Name,designation){
     chefSect.appendChild(info)
 
     chefList.appendChild(chefSect)
+    
 
 }
 
+ourChefSect.appendChild(button)
 
 ourChefSect.appendChild(chefList)
 content.appendChild(ourChefSect)

@@ -6,6 +6,7 @@ import { createFoodCat } from "./modules/foodCat";
 import { createWhyChoose } from "./modules/whyChoose";
 import { createRestrauInfo } from "./modules/restrauInfoSect";
 import {createFromMenu } from './modules/fromMenu'
+import { createTestimonial } from "./modules/testimonial";
 
 import './css/main.css'
 import { createOurChef } from "./modules/ourChef";
@@ -19,6 +20,7 @@ createWhyChoose()
 createRestrauInfo()
 createFromMenu()
 createOurChef()
+createTestimonial()
 createFooter();
 
 

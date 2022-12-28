@@ -60,8 +60,13 @@ import chef1 from '../images/chef1.png'
 import chef2 from '../images/chef2.png'
 import chef3 from '../images/chef3.png'
 import chef4 from '../images/chef4.png'
-
-
+import profile1 from '../images/profile1.png'
+import profile2 from '../images/profile2.png'
+import profile3 from '../images/profile3.png'
+import profile4 from '../images/profile4.png'
+import testimonialGreen from '../images/testimonial.png'
+import star1 from '../images/star.png'
+import Emptystar from '../images/emptyStar.png'
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
 
@@ -92,3 +97,5 @@ export const menuSnackImg = [snack1,snack2]
 export const menuSoupImg = [soup1,soup2,soup3]
 
 export const chefImg = [chef1,chef2,chef3,chef4]
+
+export const profileImg = [profile1,testimonialGreen,star1,Emptystar,profile2,profile3,profile4]

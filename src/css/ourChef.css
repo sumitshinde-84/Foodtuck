@@ -55,6 +55,33 @@
     
 }
 
+ .ourChefSect button {
+    
+    padding: 12px 20px;
+    position: absolute;
+    bottom: -80px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--white-clr);
+    font-weight: 400;
+    outline: none;
+    border: 1px var(--primary-clr) solid;
+    transition: .4s;
+}
+
+.ourChefSect button:hover {
+    
+    padding: 12px 20px;
+    position: absolute;
+    bottom: -80px;
+    border-radius: 20px;
+    background-color: var(--primary-clr);
+    color: var(--white-clr);
+    font-weight: 400;
+    outline: none;
+    border: 1px var(--primary-clr) solid;
+}
+
 .chefList .chefSect{
     overflow: hidden;
     width: 170px;
