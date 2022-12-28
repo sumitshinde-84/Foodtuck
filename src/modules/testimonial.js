@@ -96,7 +96,6 @@ function animation(){
 
 
 
-
 function slider1(){
     profile.src=profileImg[4]
     dot4.style.opacity='0.4'

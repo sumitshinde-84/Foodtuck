@@ -7,7 +7,7 @@ import { createWhyChoose } from "./modules/whyChoose";
 import { createRestrauInfo } from "./modules/restrauInfoSect";
 import {createFromMenu } from './modules/fromMenu'
 import { createTestimonial } from "./modules/testimonial";
-
+import { createRestrauActive } from "./modules/restrauActive";
 import './css/main.css'
 import { createOurChef } from "./modules/ourChef";
 export  const content = document.querySelector('#content')
@@ -21,6 +21,7 @@ createRestrauInfo()
 createFromMenu()
 createOurChef()
 createTestimonial()
+createRestrauActive()
 createFooter();
 
 
