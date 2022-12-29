@@ -62,7 +62,7 @@
 .btnSect {
     width: 500px;
     height: 70px;
-    border: 1px var(--primary-clr) solid;
+  
     margin-right: 230px;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@
 .btn2{
     padding:18px;
     background-color: var(--primary-clr);
-    border: 1px var(--primary-clr) solid;
+    border: none;
     border-radius: 50%;
     outline: none;
     transition: .3s;
@@ -116,7 +116,7 @@
 .btn2:hover{
     padding:18px;
     background-color: var(--primary-clr);
-    border: 1px var(--primary-clr) solid;
+   
     border-radius: 50%;
     outline: none;
     transition: .3s;
