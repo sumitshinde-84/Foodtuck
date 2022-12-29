@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.blogSect{
+grid-column: 2 / 11;
+grid-row:68/74 ;
+/* border: 1px var(--primary-clr) solid; */
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+
+
+}
+
+.blogSect h2{
+    font-weight: 300;
+    color: var(--primary-clr);
+    font-family: 'Great Vibes', cursive;
+    margin: 3px 25px;
+
+}
+
+
+.blogSect h1{
+    color: var(--white-clr);
+    font-family: Helvetica, sans-serif;
+    width: 450px;
+    font-size: 30px;
+    margin: 3px 25px
+}
+
+.blogSect span{
+    color: var(--primary-clr);
+    font-family: Helvetica, sans-serif;
+    width: 450px;
+    font-size: 30px;
+    
+}
+
+.blogCardSect{
+    width: 800px;
+    height: 450px;
+    /* border: 1px var(--primary-clr) solid; */
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+   align-items: center;
+}
+
+.blogCard{
+    width: 230px;
+    height: 300px;
+    border: 1px var(--white-clr) solid;
+    text-align: left;
+    color: var(--white-clr);
+    font-family: 'Inter',sans-serif;
+    
+}
+
+.blogCard:hover{
+    width: 230px;
+    height: 300px;
+    border: 1px var(--white-clr) solid;
+    text-align: left;
+    color: var(--white-clr);
+    font-family: 'Inter',sans-serif;
+    box-shadow: 2px 2px 5px white;
+    
+}
+
+.blogCard img{
+    width: 228px;
+    height: 170px;
+   
+}
+
+.blogCard p:nth-child(2){
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: var(--primary-clr);
+    
+}
+
+.blogCard p:nth-child(3){
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: var(--white-clr);
+    
+}
+
+
+.blogCard p:nth-child(4){
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    font-size: 12px;
+    color: var(--white-clr);
+    
+}
+
+.blogCard p{
+    margin-left: 20px;
+
+}
+
+.iconSect{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    gap: 7px;
+    position: relative;
+    bottom: 28px;
+    left: 150px;
+
+}
+
+.iconSect img{
+    width: 15px;
+    height: 15px;
+    
+
+}

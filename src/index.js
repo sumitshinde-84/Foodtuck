@@ -10,6 +10,7 @@ import { createTestimonial } from "./modules/testimonial";
 import { createRestrauActive } from "./modules/restrauActive";
 import './css/main.css'
 import { createOurChef } from "./modules/ourChef";
+import {createBlog}   from './modules/blog'
 export  const content = document.querySelector('#content')
     
 createHeader();
@@ -22,6 +23,7 @@ createFromMenu()
 createOurChef()
 createTestimonial()
 createRestrauActive()
+createBlog()
 createFooter();
 
 

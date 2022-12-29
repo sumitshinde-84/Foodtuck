@@ -68,6 +68,14 @@ import testimonialGreen from '../images/testimonial.png'
 import star1 from '../images/star.png'
 import Emptystar from '../images/emptyStar.png'
 import grassCorner2 from '../images/grass2.png'
+import blog1 from '../images/blog1.png'
+import blog2 from '../images/blog2.png'
+import blog3 from '../images/blog3.png'
+import like from '../images/like.png'
+import comment from '../images/comment.png'
+import share from '../images/share.png'
+
+
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
 
@@ -100,3 +108,5 @@ export const menuSoupImg = [soup1,soup2,soup3]
 export const chefImg = [chef1,chef2,chef3,chef4]
 
 export const profileImg = [profile1,testimonialGreen,star1,Emptystar,profile2,profile3,profile4,grassCorner2,grassCorner2]
+
+export const blogImg  = [blog1,blog2,blog3,like,comment,share]

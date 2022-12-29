@@ -10,6 +10,7 @@
 @import './ourChef.css';
 @import './testimonial.css';
 @import './restrauActive.css';
+@import './blog.css';
 
 *{
     margin: 0;
