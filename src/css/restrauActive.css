@@ -132,9 +132,10 @@
 }
 
 .Vidplay  {
-    margin-right: -30px;
+    position: absolute;
+    left:1020px;
     margin-bottom: 7px;
-    margin-left: auto;
+    
     font-family: 'Inter',sans-serif;
     font-weight:800;
 
