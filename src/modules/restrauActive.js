@@ -23,6 +23,9 @@ btn1.textContent='Read More'
 const btn2 = document.createElement('button')
 btn2.className='btn2'
 
+const vidPara = document.createElement('p')
+vidPara.className='Vidplay'
+vidPara.textContent='Play Video'
 
 
 restrauActiveSect.appendChild(title1)
@@ -31,6 +34,7 @@ restrauActiveSect.appendChild(para)
 
 btnSect.appendChild(btn1)
 btnSect.appendChild(btn2)
+btnSect.appendChild(vidPara)
 
 restrauActiveSect.appendChild(btnSect)
 content.appendChild(restrauActiveSect)
