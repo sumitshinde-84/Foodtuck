@@ -131,7 +131,7 @@
 }
 
 .Vidplay  {
-    position: absolute;
+    position: relative;
     right:-10px;
     margin-bottom: 7px;
     
