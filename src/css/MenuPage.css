@@ -1,0 +1,57 @@
+
+
+.bodyPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-clr);
+    background-image: url('../images/header.png');
+    background-size:100%;
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    overflow: auto;
+   
+   overflow-x: hidden;
+    background-position: top;
+}
+
+.headerForNav{
+    width: 99vw;
+    height: 80px;
+    background-color: var(--black-bg-clr);
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoForHeader{
+    margin-left: 60px;
+}
+
+.navForHeader{
+
+    margin-left: 400px;
+}
+
+.headerForNav h1{
+    position: absolute;
+    top: 150px;
+    left: 570px;
+    font-family:  Helvetica, sans-serif;
+    color: white;
+}
+
+.headerForNav p{
+    position: absolute;
+    top: 190px;
+    left: 596px;
+    font-family:  Helvetica, sans-serif;
+    color:var(--primary-clr);
+}
+
+.headerForNav span{
+  
+    font-family:  Helvetica, sans-serif;
+    color:var(--white-clr);
+}

@@ -1,7 +1,7 @@
 import {headerImg}  from "./images";
 import { content } from "../index";
 import { createHome } from "./home";
-
+import { createMenuPage } from "./menuPage";
 
 export function createHeader(){
 
@@ -42,6 +42,7 @@ export function createHeader(){
    list1.addEventListener('click',createHome)
 
    const list2 = document.createElement('li')
+   list2.addEventListener('click',createMenuPage)
    list2.textContent='Menu'
 
    const list3 = document.createElement('li')
@@ -66,7 +67,6 @@ export function createHeader(){
     ul.appendChild(list5)
     ul.appendChild(list6)
     ul.appendChild(list7)
-
 
 
  nav.appendChild(ul)

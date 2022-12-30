@@ -12,7 +12,22 @@ import './css/main.css'
 import { createOurChef } from "./modules/ourChef";
 import {createBlog}   from './modules/blog'
 export  const content = document.querySelector('#content')
-    
+
+
+export function loadAllhomeComponents(){
+
+const body = document.querySelector('body');
+body.className='body'
+content.style.background='black'
+content.style.opacity='0.8'
+
+    function removeAllChildNodesFromDisplay() {
+        while (content.firstChild) {
+            content.removeChild(content.firstChild);
+        }}
+
+
+removeAllChildNodesFromDisplay()
 createHeader();
 createHome()
 createAboutUs()
@@ -27,3 +42,6 @@ createBlog()
 createFooter();
 
 
+}
+
+loadAllhomeComponents()

@@ -1,6 +1,7 @@
 import { content } from "../index";
 import { homeImg } from "./images";
 import { createAboutUs } from "./aboutUs";
+
 export function createHome(){
 
 const mainContent = document.createElement('main')
