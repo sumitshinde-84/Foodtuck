@@ -15,6 +15,8 @@ export  const content = document.querySelector('#content')
 
 
 export function loadAllhomeComponents(){
+content.removeAttribute('class')
+content.className='content'
 
 const body = document.querySelector('body');
 body.className='body'
@@ -41,6 +43,10 @@ createRestrauActive()
 createBlog()
 createFooter();
 
+
+const footer = document.querySelector('footer')
+footer.removeAttribute('class')
+footer.className='footer'
 
 }
 

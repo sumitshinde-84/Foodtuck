@@ -4,6 +4,7 @@ import { footerImg } from "./images"
 
 export function createFooter(){
     const footer =  document.createElement('footer')
+    footer.className='footer'
     const grassCorner = document.createElement('img')
     grassCorner.className='grassCorner'
     grassCorner.src=footerImg[0];

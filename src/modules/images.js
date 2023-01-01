@@ -74,7 +74,17 @@ import blog3 from '../images/blog3.png'
 import like from '../images/like.png'
 import comment from '../images/comment.png'
 import share from '../images/share.png'
-
+import MenuImg1 from '../images/categoryForMenu1.png'
+import MenuImg2 from '../images/categoryForMenu2.png'
+import MenuImg3 from '../images/categoryForMenu3.png'
+import MenuImg4 from '../images/categoryForMenu4.png'
+import coffee from '../images/Coffee.png'
+import brand1 from '../images/brand1.png'
+import brand2 from '../images/brand2.png'
+import brand3 from '../images/brand3.png'
+import brand4 from '../images/brand4.png'
+import brand5 from '../images/brand5.png'
+import brand6 from '../images/brand6.png'
 
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
@@ -110,3 +120,7 @@ export const chefImg = [chef1,chef2,chef3,chef4]
 export const profileImg = [profile1,testimonialGreen,star1,Emptystar,profile2,profile3,profile4,grassCorner2,grassCorner2]
 
 export const blogImg  = [blog1,blog2,blog3,like,comment,share]
+
+export const MenuImg = [MenuImg1,MenuImg2,MenuImg3,MenuImg4,coffee]
+
+export const brands = [brand1,brand2,brand3,brand4,brand5,brand6]
