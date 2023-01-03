@@ -9,8 +9,12 @@ import { brands } from "./images";
 
 
 export function createMenuPage(){
-
-  
+    function removeAllChildNodesFromDisplay() {
+        while (content.firstChild) {
+            content.removeChild(content.firstChild);
+        }}
+        
+    const MenuBody = document.createElement('div')
     removeAllChildNodesFromDisplay()
 content.style.background='transparent'
 const body = document.querySelector('body')
@@ -68,7 +72,7 @@ header.appendChild(logo)
 header.appendChild(ul)
 header.appendChild(para)
 
-const MenuBody = document.createElement('div')
+
 MenuBody.className='MenuBody'
 
 content.appendChild(header)
@@ -210,10 +214,7 @@ function createMenuCategory2(TITLE,IMG){
 
  
 
-function removeAllChildNodesFromDisplay() {
-    while (content.firstChild) {
-        content.removeChild(content.firstChild);
-    }}
+
     createRestrauInfo()
     const  infoSect = document.querySelector('.restrauInfoSect')
     infoSect.removeAttribute('class')

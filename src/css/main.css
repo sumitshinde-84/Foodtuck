@@ -12,6 +12,9 @@
 @import './restrauActive.css';
 @import './blog.css';
 @import './MenuPage.css';
+@import './pageHeader.css';
+@import './blogPage.css';
+
 
 *{
     margin: 0;

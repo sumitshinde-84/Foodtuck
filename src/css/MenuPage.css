@@ -67,6 +67,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
     
 }
 
@@ -79,7 +80,6 @@
 .MenuBody .one{
     width: 940px;
     height: 500px;
-    
     display: flex;
     gap: 25px;
     margin-top: 100px
@@ -194,7 +194,7 @@ margin-top: 60px;
 .contentSecondStyle{
     width: 100vw;
 background-color:rgba(0, 0, 0, 0.804);
-height: 120%;
+height: 100%;
 display: grid;
 grid-auto-flow: column;
 grid-template-columns: repeat(12,88px);
