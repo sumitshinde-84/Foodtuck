@@ -3,20 +3,22 @@ import { blogImg } from "./images";
 import { createMenuPage } from "./menuPage";
 import { createPageHeader } from "./pageHeader";
 import { blogImgCard } from "./images";
+
 export function createBlogPage(){
 
      
-    createPageHeader('Blog')
+    createPageHeader('Blog','Blog List')
         const one = document.querySelectorAll('.one')
         
 //         removeChildFromMenuPage()
 //     function removeChildFromMenuPage(){
-//         for(let i=0;i<one.length;i++){
-//         while (one[i].firstChild) {
-//             one[i].removeChild(one[i].firstChild);
-            
-//     }}
+       
 //     const menuBody = document.querySelector('.menuBody')
+//     while (one.firstChild) {
+// //         one.removeChild(one.firstChild);
+         
+// //  }
+
 
 //     while (menuBody.firstChild) {
 //        menuBody.removeChild(menuBody.firstChild);

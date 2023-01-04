@@ -6,7 +6,7 @@ main{
     grid-column: 2/13;
   grid-row: 3/8;
   display: flex;
- 
+  
   
 }
 
@@ -20,6 +20,7 @@ main .textContent{
     outline: none;
     border-left:1px var(--white-clr) solid;
     position: relative;
+    
     
 }
 

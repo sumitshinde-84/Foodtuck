@@ -3,9 +3,11 @@ import {headerImg}  from "./images";
 import { loadAllhomeComponents } from "../index";
 import { createFooter } from "./footer";
 import { createRestrauInfo } from "./restrauInfoSect";
+import { createBlogPage } from "./blogPage";
 import { MenuImg } from "./images";
 import { brands } from "./images";
-
+import { createShop } from "./shop";
+// import { createShop } from "./shop";
 
 
 export function createMenuPage(){
@@ -36,9 +38,11 @@ logo.classList='logoForHeader'
    list1.textContent='Home'
 
    const list2 = document.createElement('li')
+   list2.addEventListener('click',createMenuPage)
    list2.textContent='Menu'
 
    const list3 = document.createElement('li')
+   list3.addEventListener('click',createBlogPage)
    list3.textContent='Blog'
 
    const list4 = document.createElement('li')
@@ -48,6 +52,7 @@ logo.classList='logoForHeader'
    list5.textContent='About'
 
    const list6 = document.createElement('li')
+   list6.addEventListener('click',createShop)
    list6.textContent='Shop'
 
    const list7 = document.createElement('li')

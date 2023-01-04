@@ -5,7 +5,8 @@ import { createFooter } from "./footer";
 import { createMenuPage } from "./menuPage";
 import { createBlogPage } from "./blogPage";
 import { createHome } from "./home";
-export function createPageHeader(option){
+import { createShop } from "./shop";
+export function createPageHeader(option,titleForHeader){
    
     content.style.background='transparent'
     const body = document.querySelector('body')
@@ -39,24 +40,26 @@ export function createPageHeader(option){
            list2.textContent='Menu'
         
            const list3 = document.createElement('li')
-           list3.textContent='Blog'
            list3.addEventListener('click',createBlogPage)
+           list3.textContent='Blog'
+           
            
            const list4 = document.createElement('li')
            list4.textContent='Pages'
-        
+           
            const list5 = document.createElement('li')
            list5.textContent='About'
         
            const list6 = document.createElement('li')
            list6.textContent='Shop'
+           list6.addEventListener('click',createShop)
         
            const list7 = document.createElement('li')
            list7.textContent='Contact'
         
            const iconSect = document.createElement('div')
            const para  = document.createElement('h1')
-           para.textContent='Our Menu'
+           para.textContent=`${titleForHeader}`
         
            const para2 = document.createElement('p')
            para2.innerHTML=`<span>Home</span> > ${option}`

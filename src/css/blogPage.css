@@ -151,6 +151,7 @@
     font-size: 20px;
     font-family: 'Inter',sans-serif;
     font-weight: bold;
+    
 }
 
 .TextcontentBlog p:nth-child(2){
@@ -158,6 +159,7 @@
     font-family: 'Inter',sans-serif;
     font-weight: light;
     margin-top: 20px;
+    width: 750px;
 }
 
 .TextcontentBlog button{

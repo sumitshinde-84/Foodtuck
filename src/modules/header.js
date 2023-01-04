@@ -3,6 +3,7 @@ import { content } from "../index";
 import { createHome } from "./home";
 import { createMenuPage } from "./menuPage";
 import { createBlogPage } from "./blogPage";
+import { createShop } from "./shop";
 export function createHeader(){
 
     
@@ -57,6 +58,7 @@ export function createHeader(){
 
    const list6 = document.createElement('li')
    list6.textContent='Shop'
+   list6.addEventListener('click',createShop)
 
    const list7 = document.createElement('li')
    list7.textContent='Contact'
