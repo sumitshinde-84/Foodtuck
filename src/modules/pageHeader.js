@@ -6,6 +6,7 @@ import { createMenuPage } from "./menuPage";
 import { createBlogPage } from "./blogPage";
 import { createHome } from "./home";
 import { createShop } from "./shop";
+import { createAboutPage } from "./aboutPage";
 export function createPageHeader(option,titleForHeader){
    
     content.style.background='transparent'
@@ -48,6 +49,8 @@ export function createPageHeader(option,titleForHeader){
            list4.textContent='Pages'
            
            const list5 = document.createElement('li')
+           list5.textContent='About'
+            list5.addEventListener('click',createAboutPage)
            list5.textContent='About'
         
            const list6 = document.createElement('li')

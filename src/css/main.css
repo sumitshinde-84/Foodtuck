@@ -15,6 +15,8 @@
 @import './pageHeader.css';
 @import './blogPage.css';
 @import './shop.css';
+@import './aboutPage.css';
+
 
 *{
     margin: 0;

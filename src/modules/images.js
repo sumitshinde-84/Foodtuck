@@ -85,6 +85,9 @@ import brand3 from '../images/brand3.png'
 import brand4 from '../images/brand4.png'
 import brand5 from '../images/brand5.png'
 import brand6 from '../images/brand6.png'
+import aboutPage1 from '../images/aboutPage.png'
+import aboutPage2 from '../images/aboutPage2.png'
+import aboutPage3 from '../images/aboutPage3.png'
 
 
 export const headerImg = [logoIcon,handBagIcon,searchIcon]
@@ -124,3 +127,5 @@ export const blogImg  = [blog1,blog2,blog3,like,comment,share]
 export const MenuImg = [MenuImg1,MenuImg2,MenuImg3,MenuImg4,coffee]
 
 export const brands = [brand1,brand2,brand3,brand4,brand5,brand6]
+
+export const aboutPage = [aboutPage1,aboutPage2,aboutPage3]

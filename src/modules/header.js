@@ -4,6 +4,7 @@ import { createHome } from "./home";
 import { createMenuPage } from "./menuPage";
 import { createBlogPage } from "./blogPage";
 import { createShop } from "./shop";
+import { createAboutPage } from "./aboutPage";
 export function createHeader(){
 
     
@@ -55,6 +56,7 @@ export function createHeader(){
 
    const list5 = document.createElement('li')
    list5.textContent='About'
+   list5.addEventListener('click',createAboutPage)
 
    const list6 = document.createElement('li')
    list6.textContent='Shop'
