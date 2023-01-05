@@ -67,7 +67,54 @@ import {aboutPage} from './images'
     
     createFromMenu()
     
+    const firstTitle = document.createElement('h1')
+    firstTitle.textContent='Why Choose us'
+    const secondTitle = document.createElement('p')
+    secondTitle.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum.'
 
+    const whyChoose = document.createElement('div')
+    whyChoose.className='whyChooseUs'
+
+
+    const whyImg = document.createElement('img')
+    whyImg.className='whyImg'
+
+    const features = document.createElement('div')
+    features.className='features'
+
+    const feture1 = document.createElement('div')
+    const titleFirst = document.createElement('h2')
+    titleFirst.textContent='Best Cheif'
+    const titleSecond=document.createElement('p')
+    titleSecond.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat'
+    feture1.appendChild(titleFirst)
+    feture1.appendChild(titleSecond)
     
+    const feture2 = document.createElement('div')
+    const titleFirst2 = document.createElement('h2')
+    titleFirst2.textContent='Best Cheif'
+    const titleSecond2=document.createElement('p')
+    titleSecond2.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat'
+    feture2.appendChild(titleFirst2)
+    feture2.appendChild(titleSecond2)
+
+    const feture3 = document.createElement('div')
+    const titleFirst3 = document.createElement('h2')
+    titleFirst3.textContent='Best Cheif'
+    const titleSecond3=document.createElement('p')
+    titleSecond3.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat'
+    feture3.appendChild(titleFirst3)
+    feture3.appendChild(titleSecond3)
+
+    features.appendChild(feture1)
+    features.appendChild(feture2)
+    features.appendChild(feture3)
+
+
+        whyChoose.appendChild(firstTitle)
+        whyChoose.appendChild(secondTitle)
+        whyChoose.appendChild(whyImg)
+        whyChoose.appendChild(features)
+    aboutBody.appendChild(whyChoose)
 }
 
