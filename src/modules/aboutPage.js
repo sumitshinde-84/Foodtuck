@@ -76,6 +76,10 @@ import {aboutPage} from './images'
     }
 
     createTestimonial()
+
+
+
+
     const testimonialSect = document.querySelector('.Testimonial')
     testimonialSect.removeAttribute('class')
     testimonialSect.className='TestimonialSECT'
@@ -122,11 +126,49 @@ import {aboutPage} from './images'
     features.appendChild(feture2)
     features.appendChild(feture3)
 
+    const teamSect = document.createElement('div')
+    teamSect.className='teamSect'
+    const yellowbg = document.createElement('div')
+    yellowbg.className='yellowbg'
 
+    makeMember('Mark Henry')
+    makeMember('Lucky helen')
+    makeMember('Joy temo')
+    makeMember('russo nikola')
+    function makeMember(name){
+
+        const memberSect = document.createElement('div')
+        memberSect.className='memberSect'
+
+        const p1 = document.createElement('p')
+        p1.textContent=name
+
+        
+
+        memberSect.appendChild(p1)
+        
+        yellowbg.appendChild(memberSect)
+    
+    }
+        const TeamTitle = document.createElement('h1')
+        TeamTitle.textContent='Team Member'
+        TeamTitle.className='TeamTitle'
+        const TeamPara =document.createElement('p')
+        TeamPara.className='TeamPara'
+        TeamPara.textContent=`Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Varius sed pharetra dictum neque massa congue`
+
+        
         whyChoose.appendChild(firstTitle)
         whyChoose.appendChild(secondTitle)
         whyChoose.appendChild(whyImg)
         whyChoose.appendChild(features)
+       
+        teamSect.appendChild(yellowbg)
+        
     aboutBody.appendChild(whyChoose)
+    aboutBody.appendChild(teamSect)
+    aboutBody.appendChild(TeamTitle)
+    aboutBody.appendChild(TeamPara)
 }
 
