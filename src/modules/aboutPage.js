@@ -66,7 +66,19 @@ import {aboutPage} from './images'
     aboutBody.appendChild(AboutSect)
     
     createFromMenu()
-    
+
+    const h1 = document.querySelector('.FromMenuMain h1')
+    h1.style.color='black'
+    const li = document.querySelectorAll('.menuSect li')
+    for(let i=0;i<li.length;i++){
+        li[i].style.color='black'
+        
+    }
+
+    createTestimonial()
+    const testimonialSect = document.querySelector('.Testimonial')
+    testimonialSect.removeAttribute('class')
+    testimonialSect.className='TestimonialSECT'
     const firstTitle = document.createElement('h1')
     firstTitle.textContent='Why Choose us'
     const secondTitle = document.createElement('p')

@@ -245,6 +245,16 @@
 
 
    }
+
+   .TestimonialSECT{
+    
+    grid-column: 2/11;
+    grid-row:32/38;
+    /* border: 1px var(--primary-clr) solid; */
+    display: flex;
+    flex-direction: column; 
+
+}
    
 
    
