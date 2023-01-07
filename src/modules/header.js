@@ -5,6 +5,7 @@ import { createMenuPage } from "./menuPage";
 import { createBlogPage } from "./blogPage";
 import { createShop } from "./shop";
 import { createAboutPage } from "./aboutPage";
+import { createContactPage } from "./Contact";
 export function createHeader(){
 
     
@@ -51,8 +52,8 @@ export function createHeader(){
    list3.addEventListener('click',createBlogPage)
    list3.textContent='Blog'
 
-   const list4 = document.createElement('li')
-   list4.textContent='Pages'
+   // const list4 = document.createElement('li')
+   // list4.textContent='Pages'
 
    const list5 = document.createElement('li')
    list5.textContent='About'
@@ -63,12 +64,13 @@ export function createHeader(){
    list6.addEventListener('click',createShop)
 
    const list7 = document.createElement('li')
+   list7.addEventListener('click',createContactPage)
    list7.textContent='Contact'
 
     ul.appendChild(list1)
     ul.appendChild(list2)
     ul.appendChild(list3)
-    ul.appendChild(list4)
+   //  ul.appendChild(list4)
     ul.appendChild(list5)
     ul.appendChild(list6)
     ul.appendChild(list7)

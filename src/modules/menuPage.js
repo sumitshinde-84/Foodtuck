@@ -44,8 +44,8 @@ logo.classList='logoForHeader'
    list3.addEventListener('click',createBlogPage)
    list3.textContent='Blog'
 
-   const list4 = document.createElement('li')
-   list4.textContent='Pages'
+//    const list4 = document.createElement('li')
+//    list4.textContent='Pages'
 
    const list5 = document.createElement('li')
    list5.textContent='About'
@@ -69,7 +69,7 @@ logo.classList='logoForHeader'
    ul.appendChild(list1)
    ul.appendChild(list2)
    ul.appendChild(list3) 
-   ul.appendChild(list4)
+//    ul.appendChild(list4)
    ul.appendChild(list5)
    ul.appendChild(list6)
    ul.appendChild(list7)

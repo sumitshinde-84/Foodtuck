@@ -69,12 +69,11 @@ export function createBlogPage(){
     const blog = document.createElement('div')
     blog.className='blogPage'
     
-    const profileDetail = document.createElement('div')
-    profileDetail.className='profileDetail'
+  
 
     menuBody.appendChild(blogSect)
     blogSect.appendChild(blog);
-    blogSect.appendChild(profileDetail);
+   
    
    
     createBlogCards(blogImg[0],'10 Reasons To Do A Digital Detox Challenge')

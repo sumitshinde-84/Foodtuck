@@ -7,6 +7,7 @@ import { createBlogPage } from "./blogPage";
 import { createHome } from "./home";
 import { createShop } from "./shop";
 import { createAboutPage } from "./aboutPage";
+import { createContactPage } from "./Contact";
 export function createPageHeader(option,titleForHeader){
    
     content.style.background='transparent'
@@ -45,8 +46,8 @@ export function createPageHeader(option,titleForHeader){
            list3.textContent='Blog'
            
            
-           const list4 = document.createElement('li')
-           list4.textContent='Pages'
+        //    const list4 = document.createElement('li')
+        //    list4.textContent='Pages'
            
            const list5 = document.createElement('li')
            list5.textContent='About'
@@ -58,6 +59,7 @@ export function createPageHeader(option,titleForHeader){
            list6.addEventListener('click',createShop)
         
            const list7 = document.createElement('li')
+           list7.addEventListener('click',createContactPage)
            list7.textContent='Contact'
         
            const iconSect = document.createElement('div')
@@ -70,7 +72,7 @@ export function createPageHeader(option,titleForHeader){
            ul.appendChild(list1)
            ul.appendChild(list2)
            ul.appendChild(list3) 
-           ul.appendChild(list4)
+        //    ul.appendChild(list4)
            ul.appendChild(list5)
            ul.appendChild(list6)
            ul.appendChild(list7)
