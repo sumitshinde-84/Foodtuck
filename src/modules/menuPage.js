@@ -8,7 +8,7 @@ import { MenuImg } from "./images";
 import { brands } from "./images";
 import { createShop } from "./shop";
 import { createAboutPage } from "./aboutPage";
-
+import { createContactPage } from "./Contact";
 export function createMenuPage(){
     function removeAllChildNodesFromDisplay() {
         while (content.firstChild) {
@@ -56,6 +56,7 @@ logo.classList='logoForHeader'
    list6.textContent='Shop'
 
    const list7 = document.createElement('li')
+   list7.addEventListener('click',createContactPage)
    list7.textContent='Contact'
 
    const iconSect = document.createElement('div')

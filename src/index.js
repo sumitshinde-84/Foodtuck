@@ -10,6 +10,7 @@ import { createTestimonial } from "./modules/testimonial";
 import { createRestrauActive } from "./modules/restrauActive";
 import { createShop } from './modules/shop'
 import {createAboutPage} from './modules/aboutPage'
+import {createContactPage} from './modules/Contact'
 import './css/main.css'
 import { createOurChef } from "./modules/ourChef";
 import {createBlog}   from './modules/blog'
