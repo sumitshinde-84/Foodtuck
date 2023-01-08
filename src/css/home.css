@@ -1,96 +1,84 @@
-@import './varriables.css';
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import "./varriables.css";
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 
-main{
-
-    grid-column: 2/13;
+main {
+  grid-column: 2/13;
   grid-row: 3/8;
   display: flex;
-  
-  
 }
 
-main .textContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 48%;
-    height: 100%;
-    border: none;
-    outline: none;
-    border-left:1px var(--white-clr) solid;
-    position: relative;
-    
-    
+main .textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 48%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-left: 1px var(--white-clr) solid;
+  position: relative;
 }
 
-.socialSect{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: black;
-    height: 150px;
-   align-items: center;
-   justify-content: center;
-    position: absolute;
-    top:30%;
-    left: -10px;
-   
+.socialSect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: black;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: -10px;
 }
 
-.socialSect img{
-    height: 14px;
-    width:14px;
-    
+.socialSect img {
+  height: 14px;
+  width: 14px;
 }
 
 .textContent button {
-    background-color: var(--primary-clr);
-    outline: none;
-    border: none;
-    padding: 12px 20px;
-    width:120px;
-    border-radius: 20px;
-    margin:10px  35px;
-    font-size: 15px;
-    color: var(--white-clr);
+  background-color: var(--primary-clr);
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  width: 120px;
+  border-radius: 20px;
+  margin: 10px 35px;
+  font-size: 15px;
+  color: var(--white-clr);
 }
 
-.textContent p{
-    font-size: 14px;
-color: var(--white-clr);
-width: 390px;
-margin: 10px 35px;
-font-family:'Inter', sans-serif;
+.textContent p {
+  font-size: 14px;
+  color: var(--white-clr);
+  width: 390px;
+  margin: 10px 35px;
+  font-family: "Inter", sans-serif;
 }
 
-.textContent .heading2{
-    color: var(--white-clr);
-    font-family: Helvetica, sans-serif;
-    width: 350px;
-    font-size: 40px;
-    margin: 10px 35px;
+.textContent .heading2 {
+  color: var(--white-clr);
+  font-family: Helvetica, sans-serif;
+  width: 350px;
+  font-size: 40px;
+  margin: 10px 35px;
 }
 
-
-.textContent .heading1{
-    font-weight: 300;
-    color: var(--primary-clr);
-    font-family: 'Great Vibes', cursive;
-    margin: 10px 35px;
-    
+.textContent .heading1 {
+  font-weight: 300;
+  color: var(--primary-clr);
+  font-family: "Great Vibes", cursive;
+  margin: 10px 35px;
 }
 
-
-.imageSect{
-    width: 50%;
-    height: 130%;
-    background: url('../images/homeDish.png');
-    background-size: cover;
-    background-size: 98%;
-    background-position-x: center;
-    margin-right: 10%;
-    background-repeat: no-repeat;
-    
+.imageSect {
+  width: 50%;
+  height: 130%;
+  background: url("../images/homeDish.png");
+  background-size: cover;
+  background-size: 98%;
+  background-position-x: center;
+  margin-right: 10%;
+  background-repeat: no-repeat;
 }
-

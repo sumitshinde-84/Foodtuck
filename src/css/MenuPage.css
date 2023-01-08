@@ -1,218 +1,181 @@
-
 .bodyPage {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    background-image: url('../images/header.png');
-    background-size:100%;
-    background-position-x: 100px;
-    background-repeat: no-repeat;
-    overflow: auto;
-    overflow-x: hidden;
-    opacity: 1;
-    background-position: top;
-    
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-image: url("../images/header.png");
+  background-size: 100%;
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+  overflow: auto;
+  overflow-x: hidden;
+  opacity: 1;
+  background-position: top;
 }
 
-.headerForNav{
-    
-    grid-column: 1/14;
-    grid-row: 1/2;
-    background-color: var(--black-bg-clr);
-    display: flex;
-    align-items: center;
-    
+.headerForNav {
+  grid-column: 1/14;
+  grid-row: 1/2;
+  background-color: var(--black-bg-clr);
+  display: flex;
+  align-items: center;
 }
 
-
-
-.logoForHeader{
-    margin-left: 60px;
+.logoForHeader {
+  margin-left: 60px;
 }
 
-.navForHeader{
-
-    margin-left: 400px;
+.navForHeader {
+  margin-left: 400px;
 }
 
-.headerForNav h1{
-    position: absolute;
-    top: 150px;
-    left: 570px;
-    font-family:  Helvetica, sans-serif;
-    color: white;
+.headerForNav h1 {
+  position: absolute;
+  top: 150px;
+  left: 570px;
+  font-family: Helvetica, sans-serif;
+  color: white;
 }
 
-.headerForNav p{
-    position: absolute;
-    top: 190px;
-    left: 596px;
-    font-family:  Helvetica, sans-serif;
-    color:var(--primary-clr);
+.headerForNav p {
+  position: absolute;
+  top: 190px;
+  left: 596px;
+  font-family: Helvetica, sans-serif;
+  color: var(--primary-clr);
 }
 
-.headerForNav span{
-  
-    font-family:  Helvetica, sans-serif;
-    color:var(--white-clr);
+.headerForNav span {
+  font-family: Helvetica, sans-serif;
+  color: var(--white-clr);
 }
 
-
-.MenuBody{
-    grid-column: 1/14;
-    grid-row: 5/50;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    
+.MenuBody {
+  grid-column: 1/14;
+  grid-row: 5/50;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.MenuBody img{
-    width: 380px;
-    height: 100%;
-    opacity: 1;
+.MenuBody img {
+  width: 380px;
+  height: 100%;
+  opacity: 1;
 }
 
-.MenuBody .one{
-    width: 940px;
-    height: 500px;
-    display: flex;
-    gap: 25px;
-    margin-top: 100px
-   
-    ;
+.MenuBody .one {
+  width: 940px;
+  height: 500px;
+  display: flex;
+  gap: 25px;
+  margin-top: 100px;
 }
 
+.MenuBody li {
+  margin: 20px 20px;
+  display: grid;
 
-
-.MenuBody  li{
-    margin: 20px 20px;
-    display: grid;
-    
-    grid-auto-flow: column;
-    grid-template-columns: 6fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    
- }
-
- .MenuBody  p:first-child{
-    grid-column: 1/6;
-    grid-row: 1/2;
-    color: black;
-    font-size: 15px;
-    font-family: 'Inter',sans-serif;
-    
-
- }
-
-
-
- .MenuBody  p:nth-child(2){
-    grid-column: 1/6;
-    grid-row: 2/3;
-    color: black;
-    font-family: 'Inter',sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    margin-top: -17px;
- }
- 
-
- .MenuBody  p:nth-child(3){
-    
-    color: var(--primary-clr);
-    margin-left:100px;
- }
-
- .MenuBody h2{
-    font-size: 40px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    
- }
-
-
- .restrauInfoSectForHeader{
-   grid-column: 1 /14;
-   grid-row: 24/28;
-   background-image: url('../images/totalInfoSect.png');
-;
+  grid-auto-flow: column;
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.MenuBody div:nth-child(3){
-
-    margin-top: 500px;
-    ;
+.MenuBody p:first-child {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  color: black;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
 }
 
-.MenuBody .workWith{
-    
-    display: flex;
-    
-    gap: 50px;
-    position: absolute;
-    top:-350px;
-    left: 150px;
-    
-   
+.MenuBody p:nth-child(2) {
+  grid-column: 1/6;
+  grid-row: 2/3;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: -17px;
 }
 
-
-
-.MenuBody .workWith img{
-    width: 130px;
-    height: 130px;;
-
-    
+.MenuBody p:nth-child(3) {
+  color: var(--primary-clr);
+  margin-left: 100px;
 }
 
-.partner{
-    width: 100vw;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-   
-    
+.MenuBody h2 {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-.partner p{
-   
-margin-left: 43%;
-margin-top: 60px;
+.restrauInfoSectForHeader {
+  grid-column: 1 /14;
+  grid-row: 24/28;
+  background-image: url("../images/totalInfoSect.png");
 }
 
-.partner h2{
-    margin-left: 30%;
-    
-    }
-
-.contentSecondStyle{
-    width: 100vw;
-background-color:rgba(0, 0, 0, 0.804);
-height: 100%;
-display: grid;
-grid-auto-flow: column;
-grid-template-columns: repeat(12,88px);
-grid-template-rows: repeat(60,70px);
-gap:0px 24px;
-z-index: 1;
+.MenuBody div:nth-child(3) {
+  margin-top: 500px;
 }
 
-.footerClass{
-    grid-column: 1/14;
-    grid-row: 48/54;
-    padding: 30px  20px;
-    position: absolute;
-    top: 130px;
-    /* border: 1px var(--white-clr) solid; */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.MenuBody .workWith {
+  display: flex;
+
+  gap: 50px;
+  position: absolute;
+  top: -350px;
+  left: 150px;
+}
+
+.MenuBody .workWith img {
+  width: 130px;
+  height: 130px;
+}
+
+.partner {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.partner p {
+  margin-left: 43%;
+  margin-top: 60px;
+}
+
+.partner h2 {
+  margin-left: 30%;
+}
+
+.contentSecondStyle {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.804);
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(12, 88px);
+  grid-template-rows: repeat(60, 70px);
+  gap: 0px 24px;
+  z-index: 1;
+}
+
+.footerClass {
+  grid-column: 1/14;
+  grid-row: 48/54;
+  padding: 30px 20px;
+  position: absolute;
+  top: 130px;
+  /* border: 1px var(--white-clr) solid; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

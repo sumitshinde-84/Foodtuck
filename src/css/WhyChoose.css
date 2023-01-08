@@ -1,216 +1,207 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.mainSect{
-    grid-column: 2 /11;
-    grid-row: 26/34;
-    display: flex;
-    gap:30px;
-    margin: 20px;
-    
+.mainSect {
+  grid-column: 2 /11;
+  grid-row: 26/34;
+  display: flex;
+  gap: 30px;
+  margin: 20px;
 }
 
-.mainSect div:nth-child(1){
-    width: 50%;
-    height:100%;
-    display: grid;
-    grid-auto-flow:row;
-    gap: 10px;
-    grid-template-rows: 1fr 3fr 1fr 1fr 1fr ;
-    grid-template-columns: 3fr 1fr 1fr 2fr;
-
+.mainSect div:nth-child(1) {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+  grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
 }
 
-.mainSect div:nth-child(2){
-    width: 50%;
-    height:100%;
-    display: flex;
-    flex-direction: column;
-
+.mainSect div:nth-child(2) {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-
-.mainSect div:nth-child(2) h2{
-    font-weight: 300;
-    color: var(--primary-clr);
-    font-family: 'Great Vibes', cursive;
-    margin: 10px 35px;
+.mainSect div:nth-child(2) h2 {
+  font-weight: 300;
+  color: var(--primary-clr);
+  font-family: "Great Vibes", cursive;
+  margin: 10px 35px;
 }
 
-.mainSect div:nth-child(2) h1{
-    color: var(--white-clr);
-    font-family: Helvetica, sans-serif;
-    width: 450px;
-    font-size: 40px;
-    margin: 10px 35px;
+.mainSect div:nth-child(2) h1 {
+  color: var(--white-clr);
+  font-family: Helvetica, sans-serif;
+  width: 450px;
+  font-size: 40px;
+  margin: 10px 35px;
 }
 
-.mainSect div:nth-child(2) span{
-    color: var(--primary-clr);
-    font-family: Helvetica, sans-serif;
-    width: 450px;
-    font-size: 40px;
+.mainSect div:nth-child(2) span {
+  color: var(--primary-clr);
+  font-family: Helvetica, sans-serif;
+  width: 450px;
+  font-size: 40px;
 }
 
-.mainSect div:nth-child(2) > p{font-size: 14px;
-    color: var(--white-clr);
-    width: 360px;
-    margin: 10px 35px;
-    font-family:'Inter', sans-serif;}
-
-.mainSect div:nth-child(1) img:first-child{
-    width:250px;
-    grid-column: 1/3;
-    grid-row: 1/3;
-  
+.mainSect div:nth-child(2) > p {
+  font-size: 14px;
+  color: var(--white-clr);
+  width: 360px;
+  margin: 10px 35px;
+  font-family: "Inter", sans-serif;
 }
 
-.mainSect div:nth-child(1) img:nth-child(2){
-    width:190px;
-    grid-column: 3/5;
-    grid-row: 2/3;
-    margin-top: 80px;
-    margin-left: -10px;
+.mainSect div:nth-child(1) img:first-child {
+  width: 250px;
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 
-
-
-
-.mainSect div:nth-child(1) img:nth-child(3){
-    grid-column: 1/2;
-    grid-row: 3/5;
-    width:180px;
+.mainSect div:nth-child(1) img:nth-child(2) {
+  width: 190px;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  margin-top: 80px;
+  margin-left: -10px;
 }
 
-.mainSect div:nth-child(1) img:nth-child(4){
-    grid-column: 2/4;
-    grid-row: 3/4;
-    width:150px;
-    
+.mainSect div:nth-child(1) img:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  width: 180px;
 }
 
-.mainSect div:nth-child(1) img:nth-child(5){
-    grid-column: 4/5;
-    grid-row: 3/4;
-    width:100px;
+.mainSect div:nth-child(1) img:nth-child(4) {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  width: 150px;
 }
 
-.mainSect div:nth-child(1) img:nth-child(6){
-    grid-column: 4/5;
-    grid-row: 4/5;
-    width:100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    position: relative;
-    bottom: 50px;
+.mainSect div:nth-child(1) img:nth-child(5) {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  width: 100px;
 }
 
-.mealCatSect{
-    display: flex;
-    width: 300px;
-    height: 100px;
-    gap: 25px;
-    margin:30px 10px ;
-    justify-content: center;
-    align-items: center;
+.mainSect div:nth-child(1) img:nth-child(6) {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  width: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  bottom: 50px;
 }
 
-.mealCatSect >div:first-child{
-    background-color: var(--primary-clr);
-    height: 65px;
-    width: 60px;
-    border-radius: 5px;
-    background-image: url('../images/Hamburger.png');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
+.mealCatSect {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  gap: 25px;
+  margin: 30px 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-.mealCatSect >div:nth-child(2){
-    background-color: var(--primary-clr);
-    height: 65px;
-    width: 60px;
-    border-radius: 5px;
-    background-image: url('../images/Cookie.png');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
+.mealCatSect > div:first-child {
+  background-color: var(--primary-clr);
+  height: 65px;
+  width: 60px;
+  border-radius: 5px;
+  background-image: url("../images/Hamburger.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
 }
 
-.mealCatSect >div:nth-child(3){
-    background-color: var(--primary-clr);
-    height: 65px;
-    width: 60px;
-    border-radius: 5px;
-    background-image: url('../images/Wine.png');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
-}
-.FastFoodP{
-    color: white;
-    position: relative;
-    bottom: 30px;
-    left: 5px;
-
-    font-weight: 400;
+.mealCatSect > div:nth-child(2) {
+  background-color: var(--primary-clr);
+  height: 65px;
+  width: 60px;
+  border-radius: 5px;
+  background-image: url("../images/Cookie.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
 }
 
-.LunchP{
-    color: white;
-    position: relative;
-    bottom: 68px;
-    left: 105px;
-    
-    font-weight: 400;
+.mealCatSect > div:nth-child(3) {
+  background-color: var(--primary-clr);
+  height: 65px;
+  width: 60px;
+  border-radius: 5px;
+  background-image: url("../images/Wine.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.FastFoodP {
+  color: white;
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+
+  font-weight: 400;
 }
 
-.DinnerP{
-    color: white;
-    position: relative;
-    bottom: 105px;
-    left: 188px;
-    
-    font-weight: 400;
+.LunchP {
+  color: white;
+  position: relative;
+  bottom: 68px;
+  left: 105px;
+
+  font-weight: 400;
 }
 
-.ExperianceSect{
-    width: 230px;
-    
-    position: relative;
-    bottom: 100px;
-    margin-left: 35px;
-    background-color: var(--white-clr);
-    border-radius: 5px;
-    border-left: 5px var(--primary-clr) solid;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter';
+.DinnerP {
+  color: white;
+  position: relative;
+  bottom: 105px;
+  left: 188px;
+
+  font-weight: 400;
 }
 
-.ExperianceSect p:first-child{
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--primary-clr); 
+.ExperianceSect {
+  width: 230px;
+
+  position: relative;
+  bottom: 100px;
+  margin-left: 35px;
+  background-color: var(--white-clr);
+  border-radius: 5px;
+  border-left: 5px var(--primary-clr) solid;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
 }
 
-.ExperianceSect p:nth-child(2){
-    padding: 5px;
-    font-size: 16px;
-    font-weight: 700;
-    color:black; 
+.ExperianceSect p:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary-clr);
 }
 
-.ExperianceSect p:nth-child(2) span{
-    font-size: 13px;
-    font-weight: 200;
-
-    color:black; 
+.ExperianceSect p:nth-child(2) {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
 }
 
+.ExperianceSect p:nth-child(2) span {
+  font-size: 13px;
+  font-weight: 200;
 
+  color: black;
+}

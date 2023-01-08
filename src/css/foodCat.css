@@ -1,94 +1,84 @@
 .FoodCatSect {
-    grid-column: 2/11;
-    grid-row: 20/25;
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    
-    
-    
+  grid-column: 2/11;
+  grid-row: 20/25;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.FoodCatSect >div:first-child{
-    width: 100%;
-    
-    display: flex;
-    justify-content: center;
-    height: 80%;
-    margin-top: auto;
-    
-   
+.FoodCatSect > div:first-child {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  margin-top: auto;
 }
 
-.FoodCatSect div:nth-child(2){
-    font-family: Helvetica, sans-serif;
-    border-radius: 5px;
-   width: 100px;
-   height: 35px;
-   position:absolute;
-   top: 200px;
-   left: 80px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: var(--white-clr);
-   color: var(--primary-clr);
-   font-weight: 600;
-   
+.FoodCatSect div:nth-child(2) {
+  font-family: Helvetica, sans-serif;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-clr);
+  color: var(--primary-clr);
+  font-weight: 600;
 }
 
-.FoodCatSect div:nth-child(3){
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    position:absolute;
-    top: 245px;
-    left: 25px;
-    height: 35px;
-    width: 170px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-clr);
-    color: var(--white-clr);
-    
+.FoodCatSect div:nth-child(3) {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 245px;
+  left: 25px;
+  height: 35px;
+  width: 170px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-clr);
+  color: var(--white-clr);
 }
-.FoodCatSect > div img{
-   width: 220px;
-   margin: 0px 10px;
-   
+.FoodCatSect > div img {
+  width: 220px;
+  margin: 0px 10px;
 }
 
-.sideGrassImg{
-   position: absolute;
-   right: -200px;
-   top:180px;
+.sideGrassImg {
+  position: absolute;
+  right: -200px;
+  top: 180px;
 }
 
-.FoodCatSect  h2{
-    font-weight: 300;
-    color: var(--primary-clr);
-    font-family: 'Great Vibes', cursive;
-    margin-right: 25px;
-    
- }
+.FoodCatSect h2 {
+  font-weight: 300;
+  color: var(--primary-clr);
+  font-family: "Great Vibes", cursive;
+  margin-right: 25px;
+}
 
- .FoodCatSect  h1{
-    color: var(--white-clr);
-    font-family: Helvetica, sans-serif;
-    width: 450px;
-    font-size: 40px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    
- }
+.FoodCatSect h1 {
+  color: var(--white-clr);
+  font-family: Helvetica, sans-serif;
+  width: 450px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
 
- .FoodCatSect span{
-    color: var(--primary-clr);
-    font-family: Helvetica, sans-serif;
-    width: 450px;
-    font-size: 40px;
- }
+.FoodCatSect span {
+  color: var(--primary-clr);
+  font-family: Helvetica, sans-serif;
+  width: 450px;
+  font-size: 40px;
+}

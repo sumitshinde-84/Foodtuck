@@ -1,137 +1,133 @@
-import { content } from "../index";
-import { blogImg } from "./images";
-import { createMenuPage } from "./menuPage";
-import { createPageHeader } from "./pageHeader";
-import { blogImgCard } from "./images";
+import { content } from '../index'
+import { blogImg, blogImgCard } from './images'
+import { createMenuPage } from './menuPage'
+import { createPageHeader } from './pageHeader'
 
-export function createBlogPage(){
+export function createBlogPage () {
+  createPageHeader('Blog', 'Blog List')
+  const one = document.querySelectorAll('.one')
 
-     
-    createPageHeader('Blog','Blog List')
-        const one = document.querySelectorAll('.one')
-        
-//         removeChildFromMenuPage()
-//     function removeChildFromMenuPage(){
-       
-//     const menuBody = document.querySelector('.menuBody')
-//     while (one.firstChild) {
-// //         one.removeChild(one.firstChild);
-         
-// //  }
+  //         removeChildFromMenuPage()
+  //     function removeChildFromMenuPage(){
 
+  //     const menuBody = document.querySelector('.menuBody')
+  //     while (one.firstChild) {
+  // //         one.removeChild(one.firstChild);
 
-//     while (menuBody.firstChild) {
-//        menuBody.removeChild(menuBody.firstChild);
-        
-// }
-//     }
-    
-    // blog creation
-    const menuBody = document.querySelector('.MenuBody')
-    const pageNumber = document.createElement('div')
-    pageNumber.className='pageNumber'
-    const forward =document.createElement('div')
-    const One  = document.createElement('div')
-    const Two = document.createElement('div')
-    const Three = document.createElement('div')
-    const backward = document.createElement('div')
-    const bWard = document.createElement('div')
-    const fWardP = document.createElement('p')
-    fWardP.textContent='<<'
-    const onep = document.createElement('p')
-    onep.textContent='1'
-    const twop = document.createElement('p')
-    twop.textContent='2'
-    const threep = document.createElement('p')
-    threep.textContent='3'
-    const bWardp = document.createElement('p')
-    
-    forward.appendChild(fWardP)
-    One.appendChild(onep)
-    backward.appendChild(threep)
-    Three.appendChild(twop)
-    bWard.appendChild(bWardp)
+  // //  }
 
-    bWard.textContent='>>'
-    pageNumber.appendChild(forward)
+  //     while (menuBody.firstChild) {
+  //        menuBody.removeChild(menuBody.firstChild);
 
-    pageNumber.appendChild(One)
-    pageNumber.appendChild(Two)
-    
-    pageNumber.appendChild(Three)
-    pageNumber.appendChild(backward)
-    pageNumber.appendChild(bWard)
+  // }
+  //     }
 
+  // blog creation
+  const menuBody = document.querySelector('.MenuBody')
+  const pageNumber = document.createElement('div')
+  pageNumber.className = 'pageNumber'
+  const forward = document.createElement('div')
+  const One = document.createElement('div')
+  const Two = document.createElement('div')
+  const Three = document.createElement('div')
+  const backward = document.createElement('div')
+  const bWard = document.createElement('div')
+  const fWardP = document.createElement('p')
+  fWardP.textContent = '<<'
+  const onep = document.createElement('p')
+  onep.textContent = '1'
+  const twop = document.createElement('p')
+  twop.textContent = '2'
+  const threep = document.createElement('p')
+  threep.textContent = '3'
+  const bWardp = document.createElement('p')
 
-    const blogSect = document.createElement('div')
-    blogSect.className='blogSectPage'
+  forward.appendChild(fWardP)
+  One.appendChild(onep)
+  backward.appendChild(threep)
+  Three.appendChild(twop)
+  bWard.appendChild(bWardp)
 
-    const blog = document.createElement('div')
-    blog.className='blogPage'
-    
-  
+  bWard.textContent = '>>'
+  pageNumber.appendChild(forward)
 
-    menuBody.appendChild(blogSect)
-    blogSect.appendChild(blog);
-   
-   
-   
-    createBlogCards(blogImg[0],'10 Reasons To Do A Digital Detox Challenge')
-    createBlogCards(blogImg[1],'Traditional Soft Pretzels with Sweet Beer Cheese')
-    createBlogCards(blogImg[2],'The Ultimate Hangover Burger: Egg in a Hole Burger')
-    createBlogCards(blogImg[0],'My Favorite Easy Black Pizza Toast Recipe')
-    function createBlogCards(IMG,title){
-        const card = document.createElement('div')
-        card.className='card'
+  pageNumber.appendChild(One)
+  pageNumber.appendChild(Two)
 
-        const img = document.createElement('img')
-        img.className='imgOfBlog'
-        img.src = IMG
+  pageNumber.appendChild(Three)
+  pageNumber.appendChild(backward)
+  pageNumber.appendChild(bWard)
 
-        const detail = document.createElement('div')
-        detail.className='detail'
-        const date =  document.createElement('div')
-        date.className='date'
-        const dateP = document.createElement('p')
-        
-        dateP.textContent='FEB 14,2022 /'
-        const msg = document.createElement('div')
-        msg.className='msg'
-        const mshP = document.createElement('p')
-        mshP.textContent = '3/'
-        const Admin = document.createElement('div')
-        Admin.className='Admin'
-        const AdminP = document.createElement('p')
-        AdminP.textContent='Admin'
-        const textContent =  document.createElement('div')
-        textContent.className='TextcontentBlog'
+  const blogSect = document.createElement('div')
+  blogSect.className = 'blogSectPage'
 
-        const Title = document.createElement('p')
-        Title.textContent=title
-        const paraBlog = document.createElement('p')
-        paraBlog.textContent='At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat'
-        const button = document.createElement('button')
-        button.textContent='Read More'
+  const blog = document.createElement('div')
+  blog.className = 'blogPage'
 
-         textContent.appendChild(Title)
-         textContent.appendChild(paraBlog)
-         textContent.appendChild(button)
+  menuBody.appendChild(blogSect)
+  blogSect.appendChild(blog)
 
+  createBlogCards(blogImg[0], '10 Reasons To Do A Digital Detox Challenge')
+  createBlogCards(
+    blogImg[1],
+    'Traditional Soft Pretzels with Sweet Beer Cheese'
+  )
+  createBlogCards(
+    blogImg[2],
+    'The Ultimate Hangover Burger: Egg in a Hole Burger'
+  )
+  createBlogCards(blogImg[0], 'My Favorite Easy Black Pizza Toast Recipe')
+  function createBlogCards (IMG, title) {
+    const card = document.createElement('div')
+    card.className = 'card'
 
-        date.appendChild(dateP)
-        msg.appendChild(mshP)
-        Admin.appendChild(AdminP)
+    const img = document.createElement('img')
+    img.className = 'imgOfBlog'
+    img.src = IMG
 
-        detail.appendChild(date)
-        detail.appendChild(msg)
-        card.appendChild(Admin)
+    const detail = document.createElement('div')
+    detail.className = 'detail'
+    const date = document.createElement('div')
+    date.className = 'date'
+    const dateP = document.createElement('p')
 
-        card.appendChild(img)
-        card.appendChild(detail)
-        card.appendChild(textContent)
-        blog.appendChild(card)
-    }
+    dateP.textContent = 'FEB 14,2022 /'
+    const msg = document.createElement('div')
+    msg.className = 'msg'
+    const mshP = document.createElement('p')
+    mshP.textContent = '3/'
+    const Admin = document.createElement('div')
+    Admin.className = 'Admin'
+    const AdminP = document.createElement('p')
+    AdminP.textContent = 'Admin'
+    const textContent = document.createElement('div')
+    textContent.className = 'TextcontentBlog'
 
-    blogSect.appendChild(pageNumber)
+    const Title = document.createElement('p')
+    Title.textContent = title
+    const paraBlog = document.createElement('p')
+    paraBlog.textContent =
+      'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat'
+    const button = document.createElement('button')
+    button.textContent = 'Read More'
 
+    textContent.appendChild(Title)
+    textContent.appendChild(paraBlog)
+    textContent.appendChild(button)
+
+    date.appendChild(dateP)
+    msg.appendChild(mshP)
+    Admin.appendChild(AdminP)
+
+    detail.appendChild(date)
+    detail.appendChild(msg)
+    card.appendChild(Admin)
+
+    card.appendChild(img)
+    card.appendChild(detail)
+    card.appendChild(textContent)
+    blog.appendChild(card)
+  }
+
+  blogSect.appendChild(pageNumber)
 }

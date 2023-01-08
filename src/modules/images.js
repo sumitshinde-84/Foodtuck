@@ -89,43 +89,74 @@ import aboutPage1 from '../images/aboutPage.png'
 import aboutPage2 from '../images/aboutPage2.png'
 import aboutPage3 from '../images/aboutPage3.png'
 
+export const headerImg = [logoIcon, handBagIcon, searchIcon]
 
-export const headerImg = [logoIcon,handBagIcon,searchIcon]
+export const homeImg = [facebookIcon, twitterIcon, pinterestIcon]
 
-export const homeImg = [facebookIcon,twitterIcon,pinterestIcon]
+export const footerImg = [grassCorner, firstPost, secondPost, thirdPost]
 
-export const footerImg = [grassCorner,firstPost,secondPost,thirdPost]
+export const aboutImg = [about1, about2, about3]
 
-export const aboutImg = [about1,about2,about3]
+export const CategoryImg = [
+  Category1,
+  Category2,
+  Category3,
+  Category4,
+  sideGrassImg
+]
 
-export const CategoryImg = [Category1,Category2,Category3,Category4,sideGrassImg]
+export const WhyImg = [why1, why2, why3, why4, why5, why6]
 
-export const WhyImg = [why1,why2,why3,why4,why5,why6]
+export const restrauInfoSectImg = [info1, info2, info3, info4]
 
-export const restrauInfoSectImg = [info1,info2,info3,info4]
+export const menuItemImg = [
+  item1,
+  item2,
+  item3,
+  item4,
+  item5,
+  item6,
+  item7,
+  item8
+]
 
-export const menuItemImg = [item1,item2,item3,item4,item5,item6,item7,item8]
+export const menuLunchImg = [lunch1, lunch2, lunch3, lunch4, lunch5, lunch6]
 
-export const menuLunchImg = [lunch1,lunch2,lunch3,lunch4,lunch5,lunch6]
+export const menuDinnerImg = [
+  dinner1,
+  dinner2,
+  dinner3,
+  dinner4,
+  dinner5,
+  dinner6
+]
 
-export const menuDinnerImg = [dinner1,dinner2,dinner3,dinner4,dinner5,dinner6]
+export const menuDesertImg = [desert1, desert2]
 
-export const menuDesertImg = [desert1,desert2]
+export const menuDrinkImg = [drink1, drink2, drink3]
 
-export const menuDrinkImg = [drink1,drink2,drink3]
+export const menuSnackImg = [snack1, snack2]
 
-export const menuSnackImg = [snack1,snack2]
+export const menuSoupImg = [soup1, soup2, soup3]
 
-export const menuSoupImg = [soup1,soup2,soup3]
+export const chefImg = [chef1, chef2, chef3, chef4]
 
-export const chefImg = [chef1,chef2,chef3,chef4]
+export const profileImg = [
+  profile1,
+  testimonialGreen,
+  star1,
+  Emptystar,
+  profile2,
+  profile3,
+  profile4,
+  grassCorner2,
+  grassCorner2
+]
 
-export const profileImg = [profile1,testimonialGreen,star1,Emptystar,profile2,profile3,profile4,grassCorner2,grassCorner2]
+export const blogImg = [blog1, blog2, blog3, like, comment, share]
 
-export const blogImg  = [blog1,blog2,blog3,like,comment,share]
+export const MenuImg = [MenuImg1, MenuImg2, MenuImg3, MenuImg4, coffee]
 
-export const MenuImg = [MenuImg1,MenuImg2,MenuImg3,MenuImg4,coffee]
+export const brands = [brand1, brand2, brand3, brand4, brand5, brand6]
 
-export const brands = [brand1,brand2,brand3,brand4,brand5,brand6]
-
-export const aboutPage = [aboutPage1,aboutPage2,aboutPage3]
+export const aboutPage = [aboutPage1, aboutPage2, aboutPage3]

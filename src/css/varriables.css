@@ -1,8 +1,6 @@
-
-
-:root{
-    --black-bg-clr:rgba(0, 0, 0, 700);
-    --white-clr:#FFFFFF;
-    --primary-clr:#FF9F0D;
-    --primary-drk-clr:#ea900a;
+:root {
+  --black-bg-clr: rgba(0, 0, 0, 700);
+  --white-clr: #ffffff;
+  --primary-clr: #ff9f0d;
+  --primary-drk-clr: #ea900a;
 }

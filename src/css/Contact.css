@@ -1,12 +1,11 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.footerContact{
-    padding: 30px  20px;
+.footerContact {
+  padding: 30px 20px;
   grid-column: 1/14;
   grid-row: 16/22;
   /* border: 1px var(--white-clr) solid; */
@@ -17,110 +16,102 @@
   align-items: center;
 }
 
-.ContactBody{
-    grid-column: 1/14;
-    grid-row: 5/15;
-    background-color: white;
-    display: flex;
-;
-    align-items: center;
-    margin-top: 10px;
-    justify-content: center;
+.ContactBody {
+  grid-column: 1/14;
+  grid-row: 5/15;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
 }
 
-.bodyPageForContact{
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    background-image: url('../images/header.png');
-    background-size:100%;
-    background-position-x: 100px;
-    background-repeat: no-repeat;
-    overflow: auto;
-    overflow-x: hidden;
-    opacity: 1;
-    background-position: top;  
+.bodyPageForContact {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-image: url("../images/header.png");
+  background-size: 100%;
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+  overflow: auto;
+  overflow-x: hidden;
+  opacity: 1;
+  background-position: top;
 }
 
-.contactSect{
-    width: 800px;
-    height: 660px;
-    border: 1px var(--primary-clr) solid;
-    margin-left: 50px;
-
+.contactSect {
+  width: 800px;
+  height: 660px;
+  border: 1px var(--primary-clr) solid;
+  margin-left: 50px;
 }
 
-form{
-    display: flex;
-    
-    padding-top: 100px;
-    flex-direction: column;
-    align-items: center;
-    
+form {
+  display: flex;
+
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
-form  .p1{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin-bottom: 20px
-    ;
+form .p1 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-bottom: 20px;
 }
 
-form  .p2{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin-bottom: 20px
-    ;
+form .p2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-bottom: 20px;
 }
 
-form .p3{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin-bottom: 20px;
-    ;
+form .p3 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-bottom: 20px;
 }
 
-form .p4{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin-bottom: 20px;
-    ;
+form .p4 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-bottom: 20px;
 }
 
-form select{
-    padding: 7px ;
-    margin-top: 5px;
+form select {
+  padding: 7px;
+  margin-top: 5px;
 }
-form input{
-    padding: 7px ;
-    margin-top: 5px;
-}
-
-form textarea{
-    height: 200px;
-    width: 600px;
-    margin-top: 5px;
-    padding:20px 2px;
+form input {
+  padding: 7px;
+  margin-top: 5px;
 }
 
-
-form  label{
-    font-size: 16px;
-    font-family: 'Inter',sans-serif;
+form textarea {
+  height: 200px;
+  width: 600px;
+  margin-top: 5px;
+  padding: 20px 2px;
 }
 
-form button{
-    padding: 12px 20px;
-    background-color: var(--primary-clr);
-    border-radius: 2px;
-    align-self: flex-start;
-    margin-left: 100px;
-    border: none;
-    color: var(--white-clr);
+form label {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: var(--primary-clr);
+  border-radius: 2px;
+  align-self: flex-start;
+  margin-left: 100px;
+  border: none;
+  color: var(--white-clr);
 }
